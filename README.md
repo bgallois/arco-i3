@@ -1,44 +1,29 @@
-# ArcoLinux BYOI i3 desktop
+# ArcoLinux BYOI bgallois
 
-# Get your code to build your own iso
+Bgallois arcolinux distribution:
+* wm: i3-gaps
+* terminal: urxvt
+* multiplexer: tmux
+* editor: vim
+* theme: minimal custom, compatible 1+ screens
 
-	git clone https://github.com/arcolinuxb/arco-i3
+# Build the iso
 
-# Follow installation tutorials on
+* On an arcoslinux machine open urxvt
+* git clone https://github.com/bgallois/arco-i3/
+* cd arcos-i3/installation-scripts
+* ./30-build-the-iso-the-first-time.sh
 
-https://arcolinuxb.com
+# Install the iso
 
-# Websites
+## Hardware requirement
+* At least 2 cores cpu.
 
-Information : https://arcolinux.info
+## Installation
+* Boot with a live usb.
+* Follow the installer.
+* After restart press ```Mod4+Enter``` to finish the installation.
 
-Tutorials about ArcoLinux iso (Xfce, Openbox and i3) : https://arcolinux.com
+![alt text](screenshots/terminals.png)
+![alt text](screenshots/no_terminals.png)
 
-Tutorials about ArcoLinuxD iso (any desktop) : https://arcolinuxd.com
-
-Tutorials how to build your own iso : https://arcolinuxb.com
-
-Forum : https://arcolinuxforum.com
-
-
-# Social Media
-
-Facebook : https://www.facebook.com/arcolinuxd/
-
-Facebook : https://www.facebook.com/groups/arcolinux/
-
-Flickr   : https://www.flickr.com/photos/arcolinux/
-
-Twitter  : https://twitter.com/arcolinux
-
-Instagram: https://www.instagram.com/arcolinux/
-
-Linked in: https://www.linkedin.com/in/arcolinux
-
-Youtube  : https://www.youtube.com/erikdubois
-
-Mewe Page : https://mewe.com/page/5c54756fb28a87238fa79302
-
-Mewe Group : https://mewe.com/group/5bbc4577a40f3002b313671d
-
-Mewe ArcoLinux : https://mewe.com/profile/5bc022ac70fb13619f97af90

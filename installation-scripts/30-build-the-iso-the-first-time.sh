@@ -75,6 +75,10 @@ rm -rf ../work/archiso/airootfs/etc/skel/.* 2> /dev/null
 
 echo "getting .bashrc from arcolinux-root"
 wget https://raw.githubusercontent.com/arcolinux/arcolinux-root/master/etc/skel/.bashrc-latest -O ../work/archiso/airootfs/etc/skel/.bashrc
+cp -f ../archiso/.bashrc-personal ../work/archiso/airootfs/etc/skel/.bashrc-personal
+
+echo "getting config"
+git clone https://github.com/bgallois/dotfile.git ../work/archiso/airootfs/etc/skel/dotfile/
 
 echo
 echo "################################################################## "

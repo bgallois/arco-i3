@@ -1,0 +1,16 @@
+#!/bin/bash
+
+rm -f $HOME/.bashrc
+rm -f $HOME/.tmux.conf
+rm -fr $HOME/.tmux
+rm -f $HOME/.vimrc
+rm -fr $HOME/.vim
+rm -f $HOME/.Xresources
+rm -fr $HOME/.config/i3
+rm -fr $HOME/.config/polybar
+rm -fr $HOME/.config/nitrogen
+rm -f /etc/xdg/picom.cfg
+cd $HOME/dotfile
+stow */
+rm -f $HOME/.bashrc-personal
+reboot
